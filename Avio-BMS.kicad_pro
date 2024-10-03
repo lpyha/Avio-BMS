@@ -389,7 +389,11 @@
     ],
     [
       "3634fe31-7923-4933-a4df-4211f0100ce1",
-      "DCDC-3.3V5V"
+      "DCDC-3.3V,5V"
+    ],
+    [
+      "dbdf80f5-ba59-470e-9ee4-588debf4f340",
+      "PowerPath"
     ]
   ],
   "text_variables": {}
