@@ -3665,6 +3665,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 46.99) (xy 72.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8831b3ab-7564-4045-ae30-053b91739e24")
+	)
+	(wire
+		(pts
+			(xy 59.69 85.09) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905ba67f-4f7d-423b-b787-8fe2c561750e")
+	)
+	(wire
+		(pts
 			(xy 215.9 36.83) (xy 215.9 39.37)
 		)
 		(stroke
@@ -3712,6 +3732,16 @@
 			(type default)
 		)
 		(uuid "a1406220-4711-4b5e-936a-78f4562fd81e")
+	)
+	(wire
+		(pts
+			(xy 59.69 80.01) (xy 54.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a298ecd2-c485-41e2-be02-5a7405a332b2")
 	)
 	(wire
 		(pts
@@ -3855,6 +3885,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 80.01) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8cb95ab-c754-4ff6-ba12-1c118adce4c4")
+	)
+	(wire
+		(pts
+			(xy 39.37 80.01) (xy 36.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da37f4de-1e04-494b-b215-34451fddc468")
+	)
+	(wire
+		(pts
 			(xy 118.11 44.45) (xy 124.46 44.45)
 		)
 		(stroke
@@ -3956,7 +4006,7 @@
 		(uuid 3d2bbcc6-4b64-440f-b04c-4d0b91e4b279)
 	)
 	(rectangle
-		(start 177.8 99.06)
+		(start 151.13 99.06)
 		(end 284.48 165.1)
 		(stroke
 			(width 0.5)
@@ -3993,7 +4043,7 @@
 	)
 	(rectangle
 		(start 12.7 99.06)
-		(end 176.53 165.1)
+		(end 148.59 165.1)
 		(stroke
 			(width 0.5)
 			(type dash)
@@ -4003,9 +4053,9 @@
 		)
 		(uuid ddb815dd-2b77-4c9c-95b9-5e3e44414f3b)
 	)
-	(text "PowerPath/MainBat,SubBat"
+	(text "MainBat-V_{OUT}1,SubBat-V_{OUT}2->VCC"
 		(exclude_from_sim no)
-		(at 64.516 103.378 0)
+		(at 40.386 103.632 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4028,6 +4078,19 @@
 			(justify left)
 		)
 		(uuid "a1c1ea91-df2a-4135-a011-495bd1024f64")
+	)
+	(text "DCDC3.3V"
+		(exclude_from_sim no)
+		(at 177.292 104.14 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a74be2f4-9f21-499a-b8e5-bf8d9f42b450")
 	)
 	(text "USB-type-C"
 		(exclude_from_sim no)
@@ -4063,8 +4126,8 @@
 		)
 		(uuid "26af481c-dd48-430f-bf25-aa3474913898")
 	)
-	(label "+5V"
-		(at 140.97 182.88 180)
+	(label "7.4V"
+		(at 124.46 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4072,10 +4135,21 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9638beaa-5ea5-4f6b-baa0-2dbb3adfc5a5")
+		(uuid "3d9b42e8-d8a8-4c54-aa8b-6d1aeedaf53e")
 	)
 	(label "+3.3V"
-		(at 102.87 182.88 180)
+		(at 146.05 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54187aab-8ebc-4985-93df-d29d73c9158a")
+	)
+	(label "+3.3V"
+		(at 124.46 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4084,6 +4158,17 @@
 			(justify right bottom)
 		)
 		(uuid "b75dfe3a-114a-4fb3-971a-b3b4623cc61e")
+	)
+	(label "7.4V"
+		(at 146.05 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddd439c3-3dbb-4a60-9a8c-3cba51201d52")
 	)
 	(global_label "V_{IN}"
 		(shape input)
@@ -4373,7 +4458,7 @@
 	)
 	(global_label "Main-Bat"
 		(shape input)
-		(at 34.29 182.88 180)
+		(at 59.69 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4383,7 +4468,7 @@
 		)
 		(uuid "ef6c3952-d892-46e0-93bb-e6c3c92db8fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.2335 182.88 0)
+			(at 47.6335 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,6 +4789,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 41.91 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09321206-b25f-4733-8d62-99cdfb6b8bcf")
+		(property "Reference" "R4"
+			(at 40.64 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 41.148 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b464d51-cec8-465f-878e-ec71d70f4867")
+		)
+		(pin "2"
+			(uuid "7d10dbdf-778c-4ef9-b78c-670ebd244bc4")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 149.86 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4772,7 +4926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 185.42 270)
+		(at 59.69 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4781,7 +4935,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f1f118b-3bd9-4874-9e2a-7188c25a752f")
 		(property "Reference" "#PWR018"
-			(at 27.94 185.42 0)
+			(at 53.34 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 185.4199 90)
+			(at 55.88 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 185.42 0)
+			(at 59.69 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 185.42 0)
+			(at 59.69 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 185.42 0)
+			(at 59.69 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,6 +4992,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 146.05 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe7b4f2-47d1-4c5a-afec-c89578e6ba7e")
+		(property "Reference" "#PWR054"
+			(at 139.7 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "259ca213-3a6c-4e48-946b-e8af58932885")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 241.3 82.55 90)
 		(unit 1)
@@ -4848,15 +5069,15 @@
 		(fields_autoplaced yes)
 		(uuid "13d1679a-a985-448b-9a62-bdf4d0319f05")
 		(property "Reference" "R15"
-			(at 241.3 87.63 90)
+			(at 241.3 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 241.3 85.09 90)
+		(property "Value" "R"
+			(at 241.3 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,6 +5121,73 @@
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "158a4817-bbbd-4889-94ce-1cb5ba7e7b88")
+		(property "Reference" "D2"
+			(at 50.8 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "indi-VBUS"
+			(at 50.8 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c71875d4-4ab0-4701-b28e-caeda58f8e11")
+		)
+		(pin "1"
+			(uuid "0117aa79-3f84-4354-ad51-44dac4297ffc")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5194,6 +5482,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 124.46 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22a1927c-b472-4efa-b938-44ae565ac57d")
+		(property "Reference" "#PWR053"
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f4a81a9-92fa-4ebf-8d8f-9f91ba666ffc")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 242.57 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5259,7 +5614,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 64.77 46.99 270)
+		(at 72.39 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5268,7 +5623,7 @@
 		(fields_autoplaced yes)
 		(uuid "40596059-28a9-4c05-b760-5749b61808e7")
 		(property "Reference" "#PWR020"
-			(at 60.96 46.99 0)
+			(at 68.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5632,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 68.58 46.9899 90)
+			(at 76.2 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 46.99 0)
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 46.99 0)
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 64.77 46.99 0)
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,6 +5805,73 @@
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ded4338-aa40-46a4-9f20-0b3d3dc13016")
+		(property "Reference" "#PWR08"
+			(at 59.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "194978ce-e3d4-4345-b33b-d7cec023ba56")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5672,6 +6094,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 36.83 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "551da6a0-9c8e-473f-b272-cfbef5664b02")
+		(property "Reference" "#PWR07"
+			(at 40.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 33.02 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b88048c1-791c-40c5-9819-d6fd9e6e3362")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 143.51 34.29 270)
 		(unit 1)
@@ -5810,73 +6299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 140.97 185.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63674fc1-df23-46e0-ac2c-b08a7987793a")
-		(property "Reference" "#PWR014"
-			(at 134.62 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 185.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "620ab78a-6666-49de-8da1-ef3ddce8e723")
-		)
-		(instances
-			(project "Avio-BMS"
-				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 118.11 74.93 0)
 		(unit 1)
@@ -5948,7 +6370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 185.42 270)
+		(at 124.46 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5957,7 +6379,7 @@
 		(fields_autoplaced yes)
 		(uuid "69a414a5-fe6e-491a-8324-cc7243f593e6")
 		(property "Reference" "#PWR013"
-			(at 96.52 185.42 0)
+			(at 118.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +6388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 185.4199 90)
+			(at 120.65 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +6397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 185.42 0)
+			(at 124.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 185.42 0)
+			(at 124.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +6415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 185.42 0)
+			(at 124.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6882,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 107.95 185.42 0)
+		(at 129.54 180.34 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6469,7 +6891,7 @@
 		(dnp no)
 		(uuid "816cc382-3267-48ed-bb5e-5621d6b7da8b")
 		(property "Reference" "J1"
-			(at 110.49 185.4201 0)
+			(at 132.08 180.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6900,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 110.49 182.8801 0)
+			(at 132.08 177.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
-			(at 107.95 185.42 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 185.42 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6927,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 107.95 185.42 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6952,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 71.12 185.42 0)
+		(at 96.52 185.42 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6540,7 +6962,7 @@
 		(fields_autoplaced yes)
 		(uuid "87af8bbf-96fd-493b-a8f9-fee394e9e936")
 		(property "Reference" "J5"
-			(at 71.12 176.53 0)
+			(at 96.52 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6548,7 +6970,7 @@
 			)
 		)
 		(property "Value" "SubBattery"
-			(at 71.12 179.07 0)
+			(at 96.52 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +6978,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
-			(at 71.12 185.42 0)
+			(at 96.52 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 185.42 0)
+			(at 96.52 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6996,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 185.42 0)
+			(at 96.52 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +7094,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 66.04 182.88 90)
+		(at 91.44 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6681,7 +7103,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ca4619f-4bc0-49d5-80bb-3dc7056fa9c4")
 		(property "Reference" "#PWR035"
-			(at 69.85 182.88 0)
+			(at 95.25 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +7112,7 @@
 			)
 		)
 		(property "Value" "V_{OUT}2"
-			(at 62.23 182.8799 90)
+			(at 87.63 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +7121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 182.88 0)
+			(at 91.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +7130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 182.88 0)
+			(at 91.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +7139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 66.04 182.88 0)
+			(at 91.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +7313,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 67.564 59.69 90)
+			(at 67.31 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,6 +7357,76 @@
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 151.13 187.96 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4956616-0019-41fd-9252-655c212e6152")
+		(property "Reference" "J10"
+			(at 153.67 187.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+7.4V"
+			(at 153.67 185.4201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+			(at 151.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "066105df-a14b-441e-a8b8-33b515123dd9")
+		)
+		(pin "2"
+			(uuid "4a052a3d-33ef-488b-b127-3802319df5a8")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7075,7 +7567,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 185.42 270)
+		(at 91.44 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7084,7 +7576,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbd7220e-6544-4898-b99a-c3cdddab0795")
 		(property "Reference" "#PWR019"
-			(at 59.69 185.42 0)
+			(at 85.09 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +7585,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 185.4199 90)
+			(at 87.63 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +7594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 185.42 0)
+			(at 91.44 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 185.42 0)
+			(at 91.44 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 185.42 0)
+			(at 91.44 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,76 +7837,6 @@
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.05 185.42 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c17dc57e-bf73-489a-a525-522a97c98e89")
-		(property "Reference" "J2"
-			(at 148.59 185.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+5V"
-			(at 148.59 182.8801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
-			(at 146.05 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 146.05 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c612e34-ccc5-431e-9d86-60073bbaddd6")
-		)
-		(pin "2"
-			(uuid "e8358512-0dce-4a89-bcc1-0153a5dd1e93")
-		)
-		(instances
-			(project "Avio-BMS"
-				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7796,6 +8218,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 146.05 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5599fa8-9d41-4453-8eab-76c325ef4ce8")
+		(property "Reference" "#PWR050"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0049c9b2-978c-4355-a51e-c5000b2fdefc")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 161.29 63.5 0)
 		(unit 1)
@@ -7882,7 +8371,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 26.924 52.07 90)
+			(at 26.416 54.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +8422,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 185.42 0)
+		(at 64.77 185.42 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7943,7 +8432,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2dc8bd2-2098-402f-bb0d-ff85ec93abed")
 		(property "Reference" "J4"
-			(at 39.37 176.53 0)
+			(at 64.77 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +8440,7 @@
 			)
 		)
 		(property "Value" "MainBattery"
-			(at 39.37 179.07 0)
+			(at 64.77 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +8448,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
-			(at 39.37 185.42 0)
+			(at 64.77 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 185.42 0)
+			(at 64.77 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +8466,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 185.42 0)
+			(at 64.77 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,6 +8484,76 @@
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 129.54 187.96 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3b89d94-14a5-45c6-8394-1393f81e065c")
+		(property "Reference" "J9"
+			(at 132.08 187.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+7.4V"
+			(at 132.08 185.4201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+			(at 129.54 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76fba5a8-ec26-4809-bcdd-14907322cd32")
+		)
+		(pin "2"
+			(uuid "79d4e306-ae2e-405c-b0ec-c83ac6e52327")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8068,6 +8627,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 151.13 180.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f877fed4-7626-4b5e-b6bd-d353ca2a8d6f")
+		(property "Reference" "J2"
+			(at 153.67 180.3401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 153.67 177.8001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67a67e19-fd7c-4eb2-97f5-2aba1e893c3a")
+		)
+		(pin "2"
+			(uuid "a66bc191-fafd-4b6b-8551-6787d48ca501")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 231.14 82.55 180)
 		(unit 1)
@@ -8084,7 +8713,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "indi-charge"
 			(at 231.14 85.344 0)
 			(effects
 				(font
@@ -8092,7 +8721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D4.0mm"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 231.14 82.55 0)
 			(effects
 				(font
@@ -8269,8 +8898,8 @@
 		)
 	)
 	(sheet
-		(at 181.61 106.68)
-		(size 99.06 54.61)
+		(at 21.59 107.95)
+		(size 119.38 52.07)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8279,19 +8908,18 @@
 		(fill
 			(color 255 255 194 1.0000)
 		)
-		(uuid "3634fe31-7923-4933-a4df-4211f0100ce1")
-		(property "Sheetname" "DCDC-3.3V,5V"
-			(at 181.61 105.3334 0)
+		(uuid "250ead80-c873-42da-965c-5a809dbffe5c")
+		(property "Sheetname" "LTC4417"
+			(at 21.59 107.2384 0)
 			(effects
 				(font
-					(size 2.54 2.54)
-					(bold yes)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DCDC-3.3V5V.kicad_sch"
-			(at 181.61 161.8746 0)
+		(property "Sheetfile" "LTC4417.kicad_sch"
+			(at 21.59 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,14 +8930,14 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 16.51 106.68)
-		(size 157.48 53.34)
+		(at 154.94 106.68)
+		(size 125.73 53.34)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8318,19 +8946,20 @@
 		(fill
 			(color 255 255 194 1.0000)
 		)
-		(uuid "dbdf80f5-ba59-470e-9ee4-588debf4f340")
-		(property "Sheetname" "PowerPath"
-			(at 16.51 105.3334 0)
+		(uuid "a5e27449-2bb3-4fd5-8fc0-4dd2677eaf59")
+		(property "Sheetname" "DCDC"
+			(at 154.94 105.3334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
+					(thickness 0.508)
 					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerPath.kicad_sch"
-			(at 16.51 160.6046 0)
+		(property "Sheetfile" "DCDC.kicad_sch"
+			(at 154.94 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

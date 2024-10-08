@@ -388,12 +388,12 @@
       "ルート"
     ],
     [
-      "3634fe31-7923-4933-a4df-4211f0100ce1",
-      "DCDC-3.3V,5V"
+      "250ead80-c873-42da-965c-5a809dbffe5c",
+      "LTC4417"
     ],
     [
-      "dbdf80f5-ba59-470e-9ee4-588debf4f340",
-      "PowerPath"
+      "a5e27449-2bb3-4fd5-8fc0-4dd2677eaf59",
+      "DCDC"
     ]
   ],
   "text_variables": {}
