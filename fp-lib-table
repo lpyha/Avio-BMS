@@ -4,4 +4,5 @@
   (lib (name "5077CR-16SMC2-BK-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/5077CR-16SMC2-BK-TR")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/LTC4088EDE_TRPBF/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TPS61088RHLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS61088RHLR")(options "")(descr ""))
+  (lib (name "CDRH6D38NP-3R3NC")(type "KiCad")(uri "${KIPRJMOD}/CDRH6D38NP-3R3NC.pretty")(options "")(descr ""))
 )
