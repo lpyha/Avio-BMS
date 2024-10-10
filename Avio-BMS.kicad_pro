@@ -389,11 +389,23 @@
     ],
     [
       "250ead80-c873-42da-965c-5a809dbffe5c",
-      "LTC4417"
+      "PowerPath"
     ],
     [
       "a5e27449-2bb3-4fd5-8fc0-4dd2677eaf59",
-      "DCDC"
+      "DCDC3.3V&7.4VOutput"
+    ],
+    [
+      "a9aee824-ba4d-405a-8d21-1d0bdb676b29",
+      "入力"
+    ],
+    [
+      "3c93f837-0667-4863-b5ad-97e598ccbf82",
+      "Li-ionBatteryCharger,PowerPath"
+    ],
+    [
+      "b371f4c8-5a59-4bdf-859b-16f2afd474be",
+      "出力IO"
     ]
   ],
   "text_variables": {}

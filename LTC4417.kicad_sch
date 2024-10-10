@@ -2861,6 +2861,19 @@
 		)
 		(uuid "35fed66c-685b-403c-99a1-6d8bfc16a562")
 	)
+	(text "MainBat-V_{OUT}1,SubBat-V_{OUT}2->VCC"
+		(exclude_from_sim no)
+		(at 32.766 25.908 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8bf43953-a92c-49ce-9449-3c6149a0b2a6")
+	)
 	(global_label "~{VALID2}"
 		(shape input)
 		(at 199.39 144.78 180)
