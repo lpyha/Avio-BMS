@@ -295,7 +295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b25b1cd-9874-46e2-a821-23de38541c51")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR055"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -346,7 +346,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/b371f4c8-5a59-4bdf-859b-16f2afd474be"
-					(reference "#PWR013")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -362,7 +362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "455b613f-93e7-46d3-873b-f84d06f2a829")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR056"
 			(at 128.27 111.76 0)
 			(effects
 				(font
@@ -413,7 +413,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/b371f4c8-5a59-4bdf-859b-16f2afd474be"
-					(reference "#PWR046")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -429,7 +429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f7686fc-2386-4cd5-8f8c-3efa3872880d")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 142.24 90.1701 0)
 			(effects
 				(font
@@ -483,7 +483,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/b371f4c8-5a59-4bdf-859b-16f2afd474be"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -499,7 +499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82268106-5fde-434f-9cba-7270b2499aad")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR058"
 			(at 149.86 111.76 0)
 			(effects
 				(font
@@ -550,7 +550,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/b371f4c8-5a59-4bdf-859b-16f2afd474be"
-					(reference "#PWR053")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -566,7 +566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98b1e3af-6c29-40a1-8df3-3e32fd9dc5b2")
-		(property "Reference" "J2"
+		(property "Reference" "J8"
 			(at 142.24 111.7601 0)
 			(effects
 				(font
@@ -620,7 +620,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/b371f4c8-5a59-4bdf-859b-16f2afd474be"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -636,7 +636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b18b9fc8-1452-4fc8-a728-2776d78eba57")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR057"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -687,7 +687,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/b371f4c8-5a59-4bdf-859b-16f2afd474be"
-					(reference "#PWR050")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)

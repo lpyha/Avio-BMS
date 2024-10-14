@@ -592,21 +592,21 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -632,7 +632,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -659,7 +659,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -683,7 +683,18 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -694,7 +705,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -712,7 +723,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -722,6 +733,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -986,6 +1015,151 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Schottky_Filled"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_Filled_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1631,16 +1805,16 @@
 		)
 	)
 	(junction
-		(at 180.34 81.28)
+		(at 175.26 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c546448-c0c5-4cdc-96fa-85cd9bc1040a")
+		(uuid "22df7ee9-2f8f-474e-874e-6325cf876b00")
 	)
 	(junction
-		(at 194.31 81.28)
+		(at 203.2 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40613557-f9cb-467e-8852-3c8698b4df86")
+		(uuid "2f7adbe6-7119-4031-927d-4aed8032abca")
 	)
 	(junction
 		(at 228.6 81.28)
@@ -1649,19 +1823,13 @@
 		(uuid "411e2989-44a7-4a4f-a721-acb572dac3b9")
 	)
 	(junction
-		(at 209.55 81.28)
+		(at 189.23 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43bf6172-94c3-426e-903b-fa60849de221")
+		(uuid "41de0e15-3180-4d88-98da-3f29ef866cbb")
 	)
 	(junction
-		(at 209.55 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52420228-4534-4107-80e5-f10210547554")
-	)
-	(junction
-		(at 194.31 88.9)
+		(at 203.2 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "562cdbc4-1ddd-4a35-b02e-66f5adec1ed5")
@@ -1672,9 +1840,21 @@
 		(color 0 0 0 0)
 		(uuid "6441472e-00ac-4089-9018-a65c242f57ae")
 	)
+	(junction
+		(at 189.23 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9e0558e-b68f-422d-a00d-9a41bc037a9b")
+	)
+	(junction
+		(at 157.48 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffccebfa-4fd3-48b3-96aa-ec10f9d51a89")
+	)
 	(wire
 		(pts
-			(xy 209.55 88.9) (xy 209.55 96.52)
+			(xy 203.2 88.9) (xy 203.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1694,23 +1874,33 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 81.28) (xy 194.31 81.28)
+			(xy 175.26 88.9) (xy 189.23 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33625365-fcfd-4839-b5b5-c938600503db")
+		(uuid "5d5a5d75-e25e-4c3c-ae0e-7217b0337c14")
 	)
 	(wire
 		(pts
-			(xy 209.55 87.63) (xy 209.55 88.9)
+			(xy 175.26 87.63) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62bd4886-aedf-4c28-85e7-f8182e8e4093")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dd93ac-03c8-4160-845d-46ac0d5b7da6")
 	)
 	(wire
 		(pts
@@ -1724,33 +1914,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 81.28) (xy 180.34 81.28)
+			(xy 140.97 81.28) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6be8e71b-6033-40e1-a436-cd1c3917fc93")
-	)
-	(wire
-		(pts
-			(xy 194.31 88.9) (xy 209.55 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77c4b6d1-f7c1-4feb-865f-14bbc22a4928")
-	)
-	(wire
-		(pts
-			(xy 194.31 81.28) (xy 209.55 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e0c55bd-40df-4271-8241-fabf35defd14")
 	)
 	(wire
 		(pts
@@ -1764,27 +1934,47 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 81.28) (xy 222.25 81.28)
+			(xy 157.48 91.44) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8241a6b8-94d6-45a4-b487-ced9cf39ac57")
+		(uuid "92ef7d6d-5085-47a7-913f-6b63069ee1c2")
 	)
 	(wire
 		(pts
-			(xy 209.55 81.28) (xy 209.55 82.55)
+			(xy 157.48 82.55) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2c1c7cc-270f-4d05-b93b-7323dbf5219a")
+		(uuid "985aa6e1-b197-4bce-859d-53608dae9f94")
 	)
 	(wire
 		(pts
-			(xy 180.34 88.9) (xy 194.31 88.9)
+			(xy 175.26 82.55) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47c6d35-9346-42da-8f9e-681e28576333")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2988d36-a19b-47c8-970d-633a1df1b3cf")
+	)
+	(wire
+		(pts
+			(xy 189.23 88.9) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1812,6 +2002,26 @@
 		)
 		(uuid "ef41b4a0-2bb5-41a0-98dd-724be4d3148b")
 	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facd0125-9bdf-494e-913e-c687c812a9e4")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2b9e08-123b-43d6-8a8e-d83bf4611a56")
+	)
 	(text "USB-PD"
 		(exclude_from_sim no)
 		(at 93.98 69.088 0)
@@ -1835,9 +2045,31 @@
 		)
 		(uuid "d150434c-abdc-4b31-b40e-cfb46a773b1e")
 	)
+	(global_label "NTC1"
+		(shape input)
+		(at 111.76 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23c86108-1ff5-4aca-9909-6a12878ebf45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9972 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Main-Bat"
 		(shape input)
-		(at 135.89 147.32 180)
+		(at 111.76 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1847,7 +2079,29 @@
 		)
 		(uuid "429e6816-a58f-4f0c-b3cd-70c55c75390e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8335 147.32 0)
+			(at 99.7035 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NTC2"
+		(shape input)
+		(at 139.7 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1140fc9-f069-44ea-bd88-c3a642392be1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9372 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +2121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19e2fef4-2d7c-42a8-b2c2-cd4d7dca6cd7")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR038"
 			(at 231.14 81.28 0)
 			(effects
 				(font
@@ -1918,7 +2172,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR020")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1934,7 +2188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad0baae-3ed4-4169-9eff-be6e99e7824a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR037"
 			(at 222.25 118.11 0)
 			(effects
 				(font
@@ -1985,76 +2239,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 168.91 149.86 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b653633-7dd7-472d-9dc0-4d523d8260a8")
-		(property "Reference" "J5"
-			(at 168.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SubBattery"
-			(at 168.91 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
-			(at 168.91 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e7afc21-e2f3-4c63-908e-2fc92cd78698")
-		)
-		(pin "1"
-			(uuid "406fe525-827b-4162-9ae6-0a04f0b24474")
-		)
-		(instances
-			(project "Avio-BMS"
-				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "J5")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2070,7 +2255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb460d2-313b-4826-94b4-6cfc42863d6c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR029"
 			(at 93.98 86.36 0)
 			(effects
 				(font
@@ -2121,7 +2306,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR07")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2137,7 +2322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e7ba4b2-9e48-41d6-9ec1-e85beaac07dc")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -2362,7 +2547,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2378,7 +2563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35f2d993-13ad-4126-aea6-e08e7ef13b99")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR034"
 			(at 152.4 93.98 0)
 			(effects
 				(font
@@ -2429,7 +2614,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR017")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39fe4782-fc6e-4625-a411-78d5ca525600")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR033"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -2496,7 +2681,76 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR016")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Filled")
+		(at 157.48 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40bd0b27-cb78-4a03-9372-c3633065a1e8")
+		(property "Reference" "D3"
+			(at 160.02 84.7724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DF2S232CTC"
+			(at 160.274 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, filled shape"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "257fcc1e-b9b9-4ebd-acb3-8fe7f48e1660")
+		)
+		(pin "1"
+			(uuid "b23287e5-aeb3-4433-8280-00c88818531e")
+		)
+		(instances
+			(project ""
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2511,7 +2765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41741c03-14ba-4b83-bbb2-12f60980b567")
-		(property "Reference" "R4"
+		(property "Reference" "R17"
 			(at 102.362 84.582 90)
 			(effects
 				(font
@@ -2563,7 +2817,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "R4")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2571,7 +2825,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 96.52 0)
+		(at 203.2 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2579,8 +2833,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "651998b3-91da-4f5f-8e01-da22e7c9008d")
-		(property "Reference" "#PWR08"
-			(at 209.55 102.87 0)
+		(property "Reference" "#PWR036"
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2843,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 97.7899 0)
+			(at 205.74 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 96.52 0)
+			(at 203.2 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 96.52 0)
+			(at 203.2 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2870,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 96.52 0)
+			(at 203.2 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2884,74 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR08")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a69e44b-8826-4495-aba2-abba9a542e04")
+		(property "Reference" "#PWR035"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f82fce2-e7f5-4b26-8258-cf40b2295a9f")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2638,7 +2959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 85.09 0)
+		(at 189.23 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2646,8 +2967,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca8bcd4-c8d7-441a-8be7-e12e4115378e")
-		(property "Reference" "C26"
-			(at 184.15 83.8199 0)
+		(property "Reference" "C25"
+			(at 193.04 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2977,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 184.15 86.3599 0)
+			(at 193.04 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2986,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 181.3052 88.9 0)
+			(at 190.1952 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 85.09 0)
+			(at 189.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +3004,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 180.34 85.09 0)
+			(at 189.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +3021,151 @@
 		(instances
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "C26")
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 144.78 129.54 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0d767e2-26bf-4f97-9a38-b246cba727f8")
+		(property "Reference" "J3"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SubBattery"
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_B03B-XASK-1_1x03_P2.50mm_Vertical"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87d49a64-1829-419e-87d4-55448a49668f")
+		)
+		(pin "3"
+			(uuid "a459178a-ffe6-4348-b706-817e10d25bc1")
+		)
+		(pin "1"
+			(uuid "00e2c032-bb89-4f6a-a75b-7048f2187077")
+		)
+		(instances
+			(project "Avio-BMS"
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 116.84 129.54 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3315923-6218-45af-b318-41c6e8e92346")
+		(property "Reference" "J1"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MainBattery"
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_B03B-XASK-1_1x03_P2.50mm_Vertical"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6553f47f-7fed-4d2a-882b-9b352d1a5be0")
+		)
+		(pin "3"
+			(uuid "85230b5c-7cd9-41df-aaf1-1b4c09284011")
+		)
+		(pin "1"
+			(uuid "b5392a21-002a-400f-9027-c748ee4554ff")
+		)
+		(instances
+			(project ""
+				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2715,7 +3180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4f5b83c-a1a4-479d-b7f3-c3ee8c53f50a")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 218.948 99.314 90)
 			(effects
 				(font
@@ -2767,7 +3232,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2782,7 +3247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3f186ed-6680-48b4-a026-379c33c0b2c3")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 229.87 73.914 0)
 			(effects
 				(font
@@ -2833,7 +3298,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2841,7 +3306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 149.86 270)
+		(at 139.7 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2849,8 +3314,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8fe7322-dae5-47f7-a9b7-d35801c80a74")
-		(property "Reference" "#PWR035"
-			(at 157.48 149.86 0)
+		(property "Reference" "#PWR032"
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +3324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 149.8599 90)
+			(at 135.89 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +3333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 149.86 0)
+			(at 139.7 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +3342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 149.86 0)
+			(at 139.7 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +3351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 149.86 0)
+			(at 139.7 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +3365,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR035")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2908,7 +3373,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 85.09 0)
+		(at 203.2 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2916,8 +3381,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1b780b7-1417-429b-bb46-f68fdfa56c57")
-		(property "Reference" "C30"
-			(at 198.12 83.8199 0)
+		(property "Reference" "C26"
+			(at 207.01 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,7 +3391,7 @@
 			)
 		)
 		(property "Value" "OPT3216"
-			(at 198.12 86.3599 0)
+			(at 207.01 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +3400,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 195.2752 88.9 0)
+			(at 204.1652 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +3409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 85.09 0)
+			(at 203.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +3418,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 85.09 0)
+			(at 203.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,76 +3435,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 140.97 149.86 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3e9887b-b9e1-4732-892f-7114610ea1eb")
-		(property "Reference" "J4"
-			(at 140.97 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MainBattery"
-			(at 140.97 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
-			(at 140.97 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "09e41f8b-e4b6-4bda-89d9-9c03b6217fb1")
-		)
-		(pin "1"
-			(uuid "03b94f57-3c89-4cdd-9643-e68e9dd4c629")
-		)
-		(instances
-			(project "Avio-BMS"
-				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "J4")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -3047,7 +3443,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 163.83 147.32 90)
+		(at 139.7 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3055,8 +3451,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8735b0e-fc55-4c59-ad63-2800215aa0b8")
-		(property "Reference" "#PWR019"
-			(at 167.64 147.32 0)
+		(property "Reference" "#PWR031"
+			(at 143.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3461,7 @@
 			)
 		)
 		(property "Value" "V_{OUT}2"
-			(at 160.02 147.3199 90)
+			(at 135.89 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 147.32 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 147.32 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 163.83 147.32 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3502,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR019")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3114,7 +3510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 209.55 85.09 0)
+		(at 175.26 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3122,8 +3518,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f03c7c64-bf46-41f7-bfef-090e76e3e668")
-		(property "Reference" "C31"
-			(at 212.09 83.8262 0)
+		(property "Reference" "C24"
+			(at 177.8 83.8262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3528,7 @@
 			)
 		)
 		(property "Value" "OPT1608"
-			(at 212.09 86.3662 0)
+			(at 177.8 86.3662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3537,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 209.55 85.09 0)
+			(at 175.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 85.09 0)
+			(at 175.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3555,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 85.09 0)
+			(at 175.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3572,7 @@
 		(instances
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "C31")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3184,7 +3580,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 149.86 270)
+		(at 111.76 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3192,8 +3588,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f201f33b-4639-4f1b-a638-e41b789e3e9e")
-		(property "Reference" "#PWR018"
-			(at 129.54 149.86 0)
+		(property "Reference" "#PWR030"
+			(at 105.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3598,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 149.8599 90)
+			(at 107.95 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 149.86 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 149.86 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 149.86 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,7 +3639,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "#PWR018")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3258,7 +3654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5b52cf4-b9dd-4b53-8ba6-4f461dce9fe8")
-		(property "Reference" "R7"
+		(property "Reference" "R19"
 			(at 220.472 90.17 0)
 			(effects
 				(font
@@ -3312,7 +3708,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "R7")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa2f9143-fae6-411b-9df9-dc29d7852507")
-		(property "Reference" "R8"
+		(property "Reference" "R18"
 			(at 143.764 92.202 90)
 			(effects
 				(font
@@ -3379,7 +3775,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/a9aee824-ba4d-405a-8d21-1d0bdb676b29"
-					(reference "R8")
+					(reference "R18")
 					(unit 1)
 				)
 			)

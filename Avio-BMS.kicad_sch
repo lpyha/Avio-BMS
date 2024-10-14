@@ -644,7 +644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e92240-0689-494d-bf3d-de5cf0797658")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 50.8 173.2279 0)
 			(effects
 				(font
@@ -695,7 +695,7 @@
 		(instances
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -711,7 +711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f6e59a-5851-4086-ba6d-e22a820142dc")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR02"
 			(at 63.5 184.15 0)
 			(effects
 				(font
@@ -761,7 +761,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
-					(reference "#PWR055")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -777,7 +777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "497e552c-cb13-45b0-b1c8-9c9f5d0d7821")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR01"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -827,7 +827,7 @@
 		(instances
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
-					(reference "#PWR054")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -843,7 +843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6858e0c-e796-440d-9cb6-66d718a09634")
-		(property "Reference" "TP4"
+		(property "Reference" "TP2"
 			(at 66.04 173.2279 0)
 			(effects
 				(font
@@ -894,7 +894,7 @@
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
-					(reference "TP4")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
