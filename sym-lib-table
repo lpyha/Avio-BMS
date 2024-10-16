@@ -4,4 +4,5 @@
   (lib (name "5077CR-16SMC2-BK-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/5077CR-16SMC2-BK-TR/5077CR-16SMC2-BK-TR.kicad_sym")(options "")(descr ""))
   (lib (name "2024-10-02_05-23-37")(type "KiCad")(uri "${KIPRJMOD}/lib/LTC4088EDE_TRPBF/KiCADv6/2024-10-02_05-23-37.kicad_sym")(options "")(descr ""))
   (lib (name "TPS61088RHLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS61088RHLR/TPS61088RHLR.kicad_sym")(options "")(descr ""))
+  (lib (name "IRF7324")(type "KiCad")(uri "${KIPRJMOD}/lib/IRF7324TRPBF/KiCADv6/IRF7324.kicad_sym")(options "")(descr ""))
 )

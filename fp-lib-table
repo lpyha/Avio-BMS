@@ -5,4 +5,5 @@
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/LTC4088EDE_TRPBF/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TPS61088RHLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS61088RHLR")(options "")(descr ""))
   (lib (name "CDRH6D38NP-3R3NC")(type "KiCad")(uri "${KIPRJMOD}/CDRH6D38NP-3R3NC.pretty")(options "")(descr ""))
+  (lib (name "IRF7324")(type "KiCad")(uri "${KIPRJMOD}/lib/IRF7324TRPBF/KiCADv6/IRF7324.pretty")(options "")(descr ""))
 )
