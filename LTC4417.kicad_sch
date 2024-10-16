@@ -3350,7 +3350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04e1c479-e444-4515-b505-8b2ad0cf78db")
-		(property "Reference" "Q4"
+		(property "Reference" "Q3"
 			(at 198.12 45.72 90)
 			(effects
 				(font
@@ -3423,7 +3423,7 @@
 		(instances
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/250ead80-c873-42da-965c-5a809dbffe5c"
-					(reference "Q4")
+					(reference "Q3")
 					(unit 2)
 				)
 			)
@@ -4237,7 +4237,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 177.8 91.44 270)
+		(at 177.8 91.44 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4245,7 +4246,7 @@
 		(dnp no)
 		(uuid "4804566e-2fa7-45fa-9a27-996a169bba4d")
 		(property "Reference" "C15"
-			(at 180.086 89.916 90)
+			(at 175.514 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4254,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 180.848 93.472 90)
+			(at 174.752 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +4912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9509e9dd-9555-4005-b8c7-62180f90e768")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 177.8 33.02 90)
 			(effects
 				(font
@@ -4984,7 +4985,7 @@
 		(instances
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/250ead80-c873-42da-965c-5a809dbffe5c"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 2)
 				)
 			)
@@ -5960,7 +5961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b6385a-34f8-4311-8937-ef0a42c7e8f8")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 187.96 45.72 90)
 			(effects
 				(font
@@ -6033,7 +6034,7 @@
 		(instances
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/250ead80-c873-42da-965c-5a809dbffe5c"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -6049,7 +6050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5d771be-cad3-47be-a42d-5f6b1285ed3d")
-		(property "Reference" "Q7"
+		(property "Reference" "Q3"
 			(at 167.64 33.02 90)
 			(effects
 				(font
@@ -6122,7 +6123,7 @@
 		(instances
 			(project ""
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/250ead80-c873-42da-965c-5a809dbffe5c"
-					(reference "Q7")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
