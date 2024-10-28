@@ -1,11 +1,11 @@
 
-(footprint IC_TPS63020DSJR (layer F.Cu) (tedit 66FB652D)
+(footprint IC_TPS63021DSJR (layer F.Cu) (tedit 66FCD51E)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 0.032 -3.1564 0) (layer F.SilkS)
     (effects (font (size 0.64 0.64) (thickness 0.15)))
   )
-  (fp_text value IC_TPS63020DSJR (at 4.096 3.1564 0) (layer F.Fab)
+  (fp_text value IC_TPS63021DSJR (at 4.096 3.1564 0) (layer F.Fab)
     (effects (font (size 0.64 0.64) (thickness 0.15)))
   )
   (pad 1 smd oval (at -1.4 -1.5) (size 0.6 0.24) (layers F.Cu F.Paste))
