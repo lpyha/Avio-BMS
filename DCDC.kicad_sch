@@ -3886,6 +3886,25 @@
 		)
 		(uuid "fff4cd49-c670-4435-a2a1-e2a6ab4d5b67")
 	)
+	(text_box "11V->R27=976k, R28=120k\n6V->R27=470k, R28=118k\n"
+		(exclude_from_sim no)
+		(at 194.31 134.62 0)
+		(size 30.48 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2e491ad1-a878-4d99-8b9a-11582e3c5a05")
+	)
 	(text "PWMmodeで使用する"
 		(exclude_from_sim no)
 		(at 99.822 155.448 0)
