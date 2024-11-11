@@ -1899,246 +1899,6 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 119.38 76.2)
@@ -2809,6 +2569,16 @@
 			(type default)
 		)
 		(uuid "c750a94a-1123-4e2f-bbc8-01800621663f")
+	)
+	(wire
+		(pts
+			(xy 133.35 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac3318f-ec53-4992-bbee-80a4674d1d83")
 	)
 	(wire
 		(pts
@@ -4098,6 +3868,17 @@
 		)
 		(uuid "77b67c0f-2e10-489b-91f8-a074c9b9f9f2")
 	)
+	(label "NTC"
+		(at 133.35 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1a9e513-8939-41f5-8ff4-0e2cebb0290b")
+	)
 	(label "GATE"
 		(at 170.18 86.36 0)
 		(fields_autoplaced yes)
@@ -4175,9 +3956,32 @@
 		)
 		(uuid "f3486cea-4573-4bed-8543-b0c723e24bed")
 	)
-	(global_label "Main-Bat"
+	(label "NTC"
+		(at 129.54 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f58e3174-5d99-477e-93a8-9ed62ec2c0eb")
+	)
+	(hierarchical_label "VBUS"
 		(shape input)
-		(at 251.46 111.76 0)
+		(at 48.26 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5495cf16-16ed-4a83-84dd-c851d967010e")
+	)
+	(hierarchical_label "VOUTS"
+		(shape output)
+		(at 267.97 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4185,20 +3989,10 @@
 			)
 			(justify left)
 		)
-		(uuid "224e6415-ab2f-490b-9f71-aba102676441")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.5165 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "63a8e94b-af8f-4f27-8733-b9a5e2b422f4")
 	)
-	(global_label "NTC1"
-		(shape output)
+	(hierarchical_label "NTC1"
+		(shape input)
 		(at 125.73 114.3 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4207,43 +4001,11 @@
 			)
 			(justify right)
 		)
-		(uuid "3552ca39-bae5-4961-bd1f-8b67b06589aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 122.0628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "85bc63cb-840f-4b81-b263-aa4b8181b5a4")
 	)
-	(global_label "NTC"
-		(shape input)
-		(at 135.89 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3cd7af24-4be8-460b-8813-e92012c6e508")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3367 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NTC"
-		(shape input)
-		(at 129.54 101.6 0)
+	(hierarchical_label "Main-Bat"
+		(shape bidirectional)
+		(at 251.46 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4251,20 +4013,10 @@
 			)
 			(justify left)
 		)
-		(uuid "666f872c-55be-42ae-801c-bcc949df8f4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.0933 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "a7387902-2b8b-45a9-b0e6-b35f5ca0f95e")
 	)
-	(global_label "NTC2"
-		(shape output)
+	(hierarchical_label "NTC2"
+		(shape input)
 		(at 130.81 114.3 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4273,17 +4025,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d152f005-634c-4eaf-8b53-baf5914e01de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 122.0628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "e300f17d-9382-4d44-a366-a2c22c1fbdaa")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -5824,73 +5566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 48.26 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8960c5c9-d6bb-4e73-a8a1-fe3922dd40a5")
-		(property "Reference" "#PWR014"
-			(at 52.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 44.45 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 48.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31d33630-2148-42c0-bc73-c7e02fab0042")
-		)
-		(instances
-			(project "Avio-BMS"
-				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/3c93f837-0667-4863-b5ad-97e598ccbf82"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 231.14 104.14 270)
 		(unit 1)
@@ -6531,72 +6206,6 @@
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/3c93f837-0667-4863-b5ad-97e598ccbf82"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 267.97 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa02e56b-69d0-4a7d-8916-089792a0717f")
-		(property "Reference" "#PWR030"
-			(at 264.16 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_{OUT}1"
-			(at 265.43 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "521e0d3a-9bf3-442b-80e3-e4ec384d8f62")
-		)
-		(instances
-			(project "Avio-BMS"
-				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d/3c93f837-0667-4863-b5ad-97e598ccbf82"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)

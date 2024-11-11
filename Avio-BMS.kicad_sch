@@ -324,16 +324,6 @@
 		(color 0 0 0 0)
 		(uuid "a32ffe10-e098-4577-ae48-ec3f3ffccac0")
 	)
-	(polyline
-		(pts
-			(xy 40.64 106.68) (xy 55.88 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db24dde-8c5d-4983-868d-449a61003b33")
-	)
 	(wire
 		(pts
 			(xy 87.63 180.34) (xy 87.63 179.07)
@@ -354,185 +344,25 @@
 		)
 		(uuid "185b4328-29cf-498c-b117-2ab900af157c")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 162.56 116.84) (xy 162.56 121.92)
+			(xy 57.15 67.31) (xy 88.9 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e2d6570-e420-492d-9d0f-2eee99e30aaf")
+		(uuid "4b483a1d-3970-4c05-ac43-66160c1603e7")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 237.49 121.92) (xy 240.03 119.38)
+			(xy 214.63 119.38) (xy 241.3 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22046b67-d01e-45e5-8865-ebebf1870009")
-	)
-	(polyline
-		(pts
-			(xy 165.1 128.27) (xy 162.56 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285e9e26-a97e-4d31-be1f-afe3d3ad2754")
-	)
-	(polyline
-		(pts
-			(xy 60.96 67.31) (xy 83.82 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "299888f6-df4d-4cb4-823c-e509e231e600")
-	)
-	(polyline
-		(pts
-			(xy 217.17 119.38) (xy 240.03 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ae55853-a753-4f81-9f1b-1f2a295130d8")
-	)
-	(polyline
-		(pts
-			(xy 165.1 119.38) (xy 162.56 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33e852ee-97fc-4bc0-8fd0-bf801395401d")
-	)
-	(polyline
-		(pts
-			(xy 237.49 125.73) (xy 237.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3554b1ab-4041-45d1-ae9c-18e2953dfeb0")
-	)
-	(polyline
-		(pts
-			(xy 237.49 116.84) (xy 237.49 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "373b6570-4092-417e-8678-81cbb84e3994")
-	)
-	(polyline
-		(pts
-			(xy 109.22 101.6) (xy 105.41 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398cf989-5d28-4659-bf14-514e94784fbc")
-	)
-	(polyline
-		(pts
-			(xy 217.17 128.27) (xy 240.03 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "402b136f-7c91-4e7f-b0ab-07e91ab88828")
-	)
-	(polyline
-		(pts
-			(xy 88.9 124.46) (xy 91.44 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40cfd738-f190-4462-ab86-72a3c6f12359")
-	)
-	(polyline
-		(pts
-			(xy 55.88 121.92) (xy 91.44 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e3ec1e-0446-482a-a8ca-a596bb0212d4")
-	)
-	(polyline
-		(pts
-			(xy 105.41 97.79) (xy 113.03 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4addd64b-78d4-4060-b1a0-d649a66dcf7d")
-	)
-	(polyline
-		(pts
-			(xy 237.49 130.81) (xy 240.03 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d944995-69c4-47e9-945e-1f45ad7a873d")
-	)
-	(polyline
-		(pts
-			(xy 60.96 55.88) (xy 83.82 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5adeff13-8c4f-4ad1-a6a6-f4e83bd2e938")
-	)
-	(polyline
-		(pts
-			(xy 81.28 64.77) (xy 81.28 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c1ccef-69ec-4ecc-a684-a4f139d15ebc")
-	)
-	(polyline
-		(pts
-			(xy 142.24 128.27) (xy 165.1 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "703830db-217f-4bdd-b20e-434ce0b28351")
-	)
-	(polyline
-		(pts
-			(xy 81.28 58.42) (xy 83.82 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71fde675-4298-41f8-a7a4-15be9bf6cf5c")
+		(uuid "57fe1b5e-4b24-4919-a30d-dccab0d9f6ed")
 	)
 	(wire
 		(pts
@@ -544,65 +374,45 @@
 		)
 		(uuid "79ad4cdb-a41f-4d96-bbb1-0e58ce4dcefc")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 109.22 82.55) (xy 109.22 101.6)
+			(xy 40.64 102.87) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82e4364f-0c39-414d-b56a-2be1a679eada")
+		(uuid "7ddada8e-bb02-4aee-af70-213118d5963b")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 83.82 67.31) (xy 81.28 64.77)
+			(xy 59.69 121.92) (xy 93.98 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b4cdec5-a060-4966-8038-c8c082b50cde")
+		(uuid "9442db38-911e-4a80-bcab-e30dc1b424e0")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 162.56 130.81) (xy 165.1 128.27)
+			(xy 57.15 69.85) (xy 88.9 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9addb3f9-9c89-4b22-a0b2-65fa50c7f13b")
+		(uuid "9ce1549f-d444-4249-80eb-0575be16a993")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 81.28 53.34) (xy 81.28 58.42)
+			(xy 109.22 78.74) (xy 109.22 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a254f488-774b-478a-94f1-6f966ab1df9c")
-	)
-	(polyline
-		(pts
-			(xy 88.9 119.38) (xy 88.9 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5f6e2a7-93f6-4ebf-8357-ed40c49c8968")
-	)
-	(polyline
-		(pts
-			(xy 240.03 119.38) (xy 237.49 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace2739d-a687-48dc-bd26-f98957ed1629")
+		(uuid "ab113b85-4dbe-4065-a106-af8ebbaf8802")
 	)
 	(wire
 		(pts
@@ -614,105 +424,55 @@
 		)
 		(uuid "b1893052-6af7-4f13-86ce-74eed508d0a1")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 162.56 121.92) (xy 165.1 119.38)
+			(xy 40.64 74.93) (xy 40.64 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4ebff29-b061-42ae-b817-fccbadad562e")
+		(uuid "c07de1eb-2036-46a4-b813-52a76eb3b589")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 240.03 128.27) (xy 237.49 125.73)
+			(xy 139.7 123.19) (xy 166.37 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b56c27a7-3a3b-4839-84f0-fcad66fe42ae")
+		(uuid "c19b653b-bcb6-4f53-99d0-5752324636f7")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 142.24 119.38) (xy 165.1 119.38)
+			(xy 57.15 64.77) (xy 88.9 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be8c1b4a-0eed-4293-809d-912ddaa612ac")
+		(uuid "d9fa2311-ce29-40f3-9bfb-170d618f16d7")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 109.22 101.6) (xy 113.03 97.79)
+			(xy 57.15 55.88) (xy 88.9 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d875f51d-d500-4fd8-b62c-b0b06ebf49f9")
+		(uuid "f89a5b30-8b7d-42ca-a0e4-adf75f9cc0a4")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 40.64 85.09) (xy 40.64 106.68)
+			(xy 214.63 128.27) (xy 241.3 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e11485e1-a57c-4a96-890e-55f0389f17ab")
-	)
-	(polyline
-		(pts
-			(xy 83.82 55.88) (xy 81.28 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e25b83b2-3307-4799-bf09-23826f6473b8")
-	)
-	(polyline
-		(pts
-			(xy 162.56 125.73) (xy 162.56 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e55ba82f-12cb-4c34-9e60-683ef29e49a4")
-	)
-	(polyline
-		(pts
-			(xy 91.44 121.92) (xy 88.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6997b33-84c4-41f5-b4fb-be05ddea8995")
-	)
-	(polyline
-		(pts
-			(xy 40.64 78.74) (xy 40.64 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed952d6f-7ca2-491f-8886-1e68b3ed56c0")
-	)
-	(polyline
-		(pts
-			(xy 81.28 69.85) (xy 83.82 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3006099-191c-44e9-9f6d-50e3dc91d655")
+		(uuid "fb2ddaf6-1a19-43a8-815f-83b2ce552e6f")
 	)
 	(text "USB-Output or MainBatteryOutput"
 		(exclude_from_sim no)
@@ -724,16 +484,6 @@
 		)
 		(uuid "0299452d-7a85-41e6-99f8-9be5e5623d49")
 	)
-	(text "3.3V2A"
-		(exclude_from_sim no)
-		(at 227.584 115.824 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2db49ea4-4292-402c-9219-45571f967e0a")
-	)
 	(text "SubBattery"
 		(exclude_from_sim no)
 		(at 71.374 119.38 0)
@@ -744,9 +494,9 @@
 		)
 		(uuid "48781bcb-e9ce-472a-bb15-b9c30fd9bd87")
 	)
-	(text "MainBattery\nor\nUSBOutput"
+	(text "MainBattery\nor\nUSBOutput\nor\nSubBattery"
 		(exclude_from_sim no)
-		(at 152.4 114.3 0)
+		(at 152.908 116.078 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -756,7 +506,7 @@
 	)
 	(text "MainBattery"
 		(exclude_from_sim no)
-		(at 71.12 62.23 0)
+		(at 71.12 61.976 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -773,26 +523,6 @@
 			)
 		)
 		(uuid "75ed84a0-f571-4a8b-9ba2-c60247269472")
-	)
-	(text "7.4V2A"
-		(exclude_from_sim no)
-		(at 227.584 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "93273d5f-ea59-4fd6-a28f-cb62df341fcc")
-	)
-	(text "SubBattery"
-		(exclude_from_sim no)
-		(at 152.654 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e43e2fab-bb60-4cd0-aabb-5315fa60b078")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -1426,6 +1156,36 @@
 				(justify left top)
 			)
 		)
+		(pin "V_{OUT}1" input
+			(at 109.22 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df7c4726-9899-4fdf-8591-41fa4babd1bc")
+		)
+		(pin "V_{OUT}2" input
+			(at 93.98 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31fe9cb8-80dc-4db9-b451-b42d46b415cd")
+		)
+		(pin "VCC" output
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "153cd64d-8a03-4c8d-964a-d92b529e9d0f")
+		)
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
@@ -1465,6 +1225,56 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "Main-Bat" bidirectional
+			(at 88.9 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8e1e66b-990a-4e72-b159-c449ac837d8c")
+		)
+		(pin "VOUTS" output
+			(at 109.22 78.74 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c525f0b0-59bc-4377-8b06-200a26461c49")
+		)
+		(pin "NTC2" output
+			(at 88.9 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b29927f-8a35-4eab-b94a-c13931cbcd17")
+		)
+		(pin "NTC1" output
+			(at 88.9 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "735519df-cdbc-4763-a52d-0db248183daa")
+		)
+		(pin "VBUS" input
+			(at 88.9 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4193ce9-fc00-4c8a-9e77-98b54cb52b7a")
 		)
 		(instances
 			(project "Avio-BMS"
@@ -1506,6 +1316,36 @@
 				(justify left top)
 			)
 		)
+		(pin "+6V" output
+			(at 214.63 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "690bf5bd-152b-401f-99d4-232dbf6bc294")
+		)
+		(pin "+3.3V" output
+			(at 214.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2b0810a-3ec5-497d-bfa0-acf6c47bc10b")
+		)
+		(pin "VCC" input
+			(at 166.37 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2df3ed2-d320-446d-a11a-7240638bddc1")
+		)
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
@@ -1546,6 +1386,56 @@
 				(justify left top)
 			)
 		)
+		(pin "Main-Bat" bidirectional
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ebb5cd5-f3ab-437f-b53a-321d3aec00c3")
+		)
+		(pin "NTC1" passive
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d30f6c87-5b64-4eed-8f3f-1bda86463785")
+		)
+		(pin "NTC2" passive
+			(at 57.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57b6a2b8-1ed9-46b5-b0ae-9faf7298fa82")
+		)
+		(pin "Sub-Bat" output
+			(at 40.64 74.93 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f27c8812-2850-4fbf-a191-eae8aba2402a")
+		)
+		(pin "VBUS" output
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0538eedd-bd82-4914-a596-eaa20329fcbb")
+		)
 		(instances
 			(project "Avio-BMS"
 				(path "/14e0994b-afc2-4c10-b50d-3efcc006980d"
@@ -1585,6 +1475,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "+3.3V" input
+			(at 241.3 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2031cda7-22ec-4018-bdf0-a3d5f7ea7499")
+		)
+		(pin "+6V" input
+			(at 241.3 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c078cb9-6d7b-4a7d-8a49-4a9978f9dbae")
 		)
 		(instances
 			(project "Avio-BMS"
