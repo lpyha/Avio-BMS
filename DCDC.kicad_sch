@@ -3552,10 +3552,10 @@
 		)
 		(uuid "fff4cd49-c670-4435-a2a1-e2a6ab4d5b67")
 	)
-	(text_box "11V->R27=976k, R28=120k\n6V->R27=470k, R28=118k\n"
+	(text_box "R27=(V_{OUT}-V{REF}*R28)/V{REF}\nV{REF}=1.204V(Modeによって少し変わる)\nR28は56kOhmが標準的に使われる\n(Example)\n11V->R27=976k, R28=120k\n6V->R27=223k, R28=56k\n"
 		(exclude_from_sim no)
-		(at 194.31 134.62 0)
-		(size 30.48 5.08)
+		(at 198.12 134.62 0)
+		(size 43.18 13.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -5335,7 +5335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "56k"
 			(at 185.42 139.6999 0)
 			(effects
 				(font
@@ -7117,7 +7117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "221k"
 			(at 185.42 126.9999 0)
 			(effects
 				(font

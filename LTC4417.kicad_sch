@@ -2707,7 +2707,7 @@
 	)
 	(rectangle
 		(start 43.18 83.82)
-		(end 111.76 130.81)
+		(end 95.25 129.54)
 		(stroke
 			(width 0.635)
 			(type dash)
@@ -2741,6 +2741,17 @@
 		)
 		(uuid "35fed66c-685b-403c-99a1-6d8bfc16a562")
 	)
+	(text "V1=3.7V\nUV_{Fall}=3.0113V\nUV_{Rise}=3.1016V\nOV_{Fall}=4.4866V\nOV_{Rise}=4.6253V\nR21=80.6k\nR20=43.2k\nR19=249k\nE96系列"
+		(exclude_from_sim no)
+		(at 69.596 141.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6657c4e5-9680-4dff-bd5f-ceff892e2dd7")
+	)
 	(text "MainBat-V_{OUT}1,SubBat-V_{OUT}2->VCC"
 		(exclude_from_sim no)
 		(at 32.766 25.908 0)
@@ -2753,6 +2764,17 @@
 			(justify left)
 		)
 		(uuid "8bf43953-a92c-49ce-9449-3c6149a0b2a6")
+	)
+	(text "V1=5V,3.7V\nUV_{Fall}=2.988V\nUV_{Rise}=3.077V\nOV_{Fall}=5.8677V\nOV_{Rise}=6.0485V\nR18=82.5k\nR17=84.5k\nR16=332k\nE96系列"
+		(exclude_from_sim no)
+		(at 44.196 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f23bb717-5e4c-42a8-ae3b-bb90d1f5d0ef")
 	)
 	(global_label "~{VALID2}"
 		(shape input)
@@ -3654,7 +3676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "84.5k"
 			(at 50.8 107.9499 0)
 			(effects
 				(font
@@ -3855,7 +3877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "80.6k"
 			(at 73.66 115.5699 0)
 			(effects
 				(font
@@ -4951,7 +4973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "82.5k"
 			(at 50.8 115.5699 0)
 			(effects
 				(font
@@ -5223,7 +5245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "249k"
 			(at 73.66 100.3299 0)
 			(effects
 				(font
@@ -5360,7 +5382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "43.2k"
 			(at 73.66 107.9499 0)
 			(effects
 				(font
@@ -5498,7 +5520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "332k"
 			(at 50.8 100.3299 0)
 			(effects
 				(font
